@@ -4,7 +4,7 @@
 #
 Name     : django-discover-runner
 Version  : 1.0
-Release  : 15
+Release  : 16
 URL      : https://pypi.python.org/packages/source/d/django-discover-runner/django-discover-runner-1.0.tar.gz
 Source0  : https://pypi.python.org/packages/source/d/django-discover-runner/django-discover-runner-1.0.tar.gz
 Summary  : A Django test runner based on unittest2's test discovery.
