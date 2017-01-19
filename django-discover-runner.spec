@@ -6,7 +6,7 @@
 #
 Name     : django-discover-runner
 Version  : 1.0
-Release  : 19
+Release  : 20
 URL      : https://pypi.python.org/packages/source/d/django-discover-runner/django-discover-runner-1.0.tar.gz
 Source0  : https://pypi.python.org/packages/source/d/django-discover-runner/django-discover-runner-1.0.tar.gz
 Source99 : https://pypi.python.org/packages/source/d/django-discover-runner/django-discover-runner-1.0.tar.gz.asc
@@ -40,12 +40,12 @@ python components for the django-discover-runner package.
 
 %build
 export LANG=C
-export SOURCE_DATE_EPOCH=1484543009
+export SOURCE_DATE_EPOCH=1484843125
 python2 setup.py build -b py2
 python3 setup.py build -b py3
 
 %install
-export SOURCE_DATE_EPOCH=1484543009
+export SOURCE_DATE_EPOCH=1484843125
 rm -rf %{buildroot}
 python2 -tt setup.py build -b py2 install --root=%{buildroot} --force
 python3 -tt setup.py build -b py3 install --root=%{buildroot} --force
