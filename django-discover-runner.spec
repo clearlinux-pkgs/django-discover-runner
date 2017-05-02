@@ -6,7 +6,7 @@
 #
 Name     : django-discover-runner
 Version  : 1.0
-Release  : 20
+Release  : 21
 URL      : https://pypi.python.org/packages/source/d/django-discover-runner/django-discover-runner-1.0.tar.gz
 Source0  : https://pypi.python.org/packages/source/d/django-discover-runner/django-discover-runner-1.0.tar.gz
 Source99 : https://pypi.python.org/packages/source/d/django-discover-runner/django-discover-runner-1.0.tar.gz.asc
